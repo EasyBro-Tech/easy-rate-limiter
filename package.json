@@ -1,0 +1,22 @@
+{
+  "name": "easy-rate-limiter",
+  "version": "1.0.0",
+  "description": "A simple and efficient rate limiter using the token bucket algorithm for Express and other Node.js servers.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "rate-limiter",
+    "token-bucket",
+    "express",
+    "api-security",
+    "middleware"
+  ],
+  "author": "Vishal Vishwakarma",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  }
+}
