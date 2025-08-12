@@ -1,6 +1,6 @@
 {
-  "name": "easy-rate-limiter",
-  "version": "1.0.0",
+  "name": "easybro-rate-limiter",
+  "version": "1.0.1",
   "description": "A simple and efficient rate limiter using the token bucket algorithm for Express and other Node.js servers.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,7 +20,7 @@
   ],
   "author": "Vishal Vishwakarma",
   "license": "MIT",
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/EasyBro-Tech/easy-rate-limiter.git"
   },
