@@ -2,21 +2,47 @@
   "name": "easy-rate-limiter",
   "version": "1.0.0",
   "description": "A simple and efficient rate limiter using the token bucket algorithm for Express and other Node.js servers.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "node test/test.js"
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
   },
   "keywords": [
     "rate-limiter",
     "token-bucket",
     "express",
     "api-security",
+    "throttle",
+    "api",
     "middleware"
   ],
   "author": "Vishal Vishwakarma",
   "license": "MIT",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EasyBro-Tech/easy-rate-limiter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EasyBro-Tech/easy-rate-limiter/issues"
+  },
+  "homepage": "https://github.com/EasyBro-Tech/easy-rate-limiter#readme",
+  "files": [
+    "dist/**/*"
+  ],
   "type": "module",
   "devDependencies": {
-    "jest": "^30.0.5"
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.2.0",
+    "@types/supertest": "^6.0.3",
+    "jest": "^30.0.5",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.1",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
