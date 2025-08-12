@@ -1,5 +1,5 @@
 {
-  "name": "easy-rate-limiter",
+  "name": "easybro-rate-limiter",
   "version": "1.0.1",
   "description": "A simple and efficient rate limiter using the token bucket algorithm for Express and other Node.js servers.",
   "main": "dist/index.js",

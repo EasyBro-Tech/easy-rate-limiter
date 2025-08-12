@@ -1,7 +1,9 @@
-# easyRateLimiter
+# easybroRateLimiter
 
 A simple, lightweight, in-memory rate limiting middleware for Express.js using the **Token Bucket** algorithm.  
 It helps protect your API from abuse by limiting the number of requests a client can make within a given time frame.
+
+https://www.npmjs.com/package/easybro-rate-limiter
 
 ---
 
