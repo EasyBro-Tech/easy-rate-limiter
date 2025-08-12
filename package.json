@@ -6,17 +6,31 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "npm run build"
   },
   "keywords": [
     "rate-limiter",
     "token-bucket",
     "express",
     "api-security",
+    "throttle",
+    "api",
     "middleware"
   ],
   "author": "Vishal Vishwakarma",
   "license": "MIT",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EasyBro-Tech/easy-rate-limiter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EasyBro-Tech/easy-rate-limiter/issues"
+  },
+  "homepage": "https://github.com/EasyBro-Tech/easy-rate-limiter#readme",
+  "files": [
+    "dist/**/*"
+  ],
   "type": "module",
   "devDependencies": {
     "@types/express": "^5.0.3",
